@@ -1,0 +1,87 @@
+p{
+        text-align: center;
+}
+h1{
+        text-align: center;
+        text-decoration: underline;
+}
+h2{
+        background-color: green;
+
+}
+body{
+        background-color: beige;
+}
+
+.diapo1{
+        margin: 0px;
+        width: 100%;
+        height: 500px;
+        border: 3px solid black;
+        -webkit-animation-name: diapo;
+        -webkit-animation-duration: 60s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    }
+    @-webkit-keyframes diapo{
+        0%{background-image: url(../Images/paris5.jpg);}
+        20%{background-image: url(../Images/paris3.jpg);}
+        40%{background-image: url(../Images/paris2.jpg);}
+        60%{background-image: url(../Images/paris4.jpg);}
+        80%{background-image: url(../Images/paris5.jpg);}
+        100%{background-image: url(../Images/eiffel.jpg);}
+    }
+    #entete{
+   
+        height: 50px;
+        width: 100%;
+        
+    }
+    
+    #contenu{
+      
+        height: 400px;
+        width: 60%;
+        text-align: center;
+    }
+    
+    
+    
+    body{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        
+        
+    }
+    #footer{
+        
+        height: 50px;
+        width: 100%;
+    }
+    #entete ul {
+        margin: 0px;
+        padding: 0px;
+        line-height: 30px;
+        
+    }
+    #entete li{
+    
+        position: relative;
+        cursor: pointer;
+        margin: 10px;
+        border-style: hidden;
+        display: inline-block;
+        background-color:black;
+    
+    }
+    .menu, li {
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+        font-family: cursive;
+        color: orangered;
+    }
